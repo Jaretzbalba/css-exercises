@@ -1,7 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 img {
@@ -27,22 +26,17 @@ img {
   background: #eee;
 }
 
+.title {
+  margin-bottom: 32px;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 32px;
+  gap: 52px;
 }
 
 .info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 52 0;
-}
-
-.a, .b, .c, .d {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  width: 200px;
 }
